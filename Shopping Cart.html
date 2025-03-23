@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="../CSS/cart.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo">
+                <a href="../HTML/Home.html"><img src="../Assets/Website_Coding/Core Elements/QuickCart logo (B).png" alt="QuickCart"></a>
+            </div>
+
+            <ul>
+                <li><a href="Tops.html">Tops</a></li>
+                <li><a href="Bottoms.html">Bottoms</a></li>
+                <li><a href="#">One-Piece</a></li>
+                <li><a href="#">Outerwear</a></li>
+            </ul>
+
+            <div class="cart-icon">
+                <img src="../Assets/Website_Coding/Shopping Cart/shopping-cart.png" alt="Shopping Cart"></a>
+            </div>
+            
+        </div>
+    </nav>
+
+    <div class="cart-container">
+        <h1 id="cart-title"><span>Your Shopping Cart</span></h1>
+
+            <div id="empty-cart-message">
+                <img src="../Assets/Website_Coding/Shopping Cart/Empty cart.png" alt="Empty Cart">
+                <p><strong>Your shopping cart is empty!</strong></p>
+                <p class="tip">Tip *Minimum 1 item to advance to next stage</p>
+                <a href="../HTML/Home.html"><button id="continue-shopping-btn">Continue Shopping</button></a>
+            </div>
+
+            <div id="suggestions">
+                <img src="../Assets/Website_Coding/Shopping Cart/Gradient bg (pink).jpg" alt="Gradient Background">
+                <div class="title-container">
+                <div class="title"><strong>Suggestions For You</strong></div>
+                </div>
+                <div class="suggestion-items">
+                    <div class="column">
+                            <div class="image-container">
+                                <a href="Product Template.html?id=product14">
+                                <img src="../Assets/Website_Coding/Shopping Cart/Suggestions For You/Basic Grey hoodie.jpg" alt="Basic Grey Hoodie" data-product-id="product14">
+                                </a>
+                                <div class="product-name">Basic Grey Hoodie</div>
+                                <div class="product-price">$12</div>
+                            </div>
+                    </div>
+
+                    <div class="column">
+                            <div class="image-container">
+                                <a href="Product Template.html?id=product44">
+                                <img src="../Assets/Website_Coding/Shopping Cart/Suggestions For You/Black midi silt dress.jpg" alt="Black Midi Silt Dress" data-product-id="product44">
+                                </a>
+                                <div class="product-name">Black Midi Silt Dress</div>
+                                <div class="product-price">$12</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="column">
+                            <div class="image-container">
+                                <a href="Product Template.html?id=product22">
+                                <img src="../Assets/Website_Coding/Shopping Cart/Suggestions For You/Light blue striped blouse.jpg" alt="Light Blue Striped Blouse" data-product-id="product22">
+                                </a>
+                                <div class="product-name">Light Blue Striped Blouse</div>
+                                <div class="product-price">$10</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="column">
+                            <div class="image-container">
+                                <a href="Product Template.html?id=product62">
+                                <img src="../Assets/Website_Coding/Shopping Cart/Suggestions For You/Beige cropped jacket.jpg" alt="Beige Cropped Jacket" data-product-id="product62">
+                                </a>
+                                <div class="product-name">Beige Cropped Jacket</div>
+                                <div class="product-price">$13</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="column">
+                            <div class="image-container">
+                                <a href="Product Template.html?id=product46">
+                                <img src="../Assets/Website_Coding/Shopping Cart/Suggestions For You/Black faux leather skirt front.jpg" alt="Black Faux Leather Skirt" data-product-id="product46">
+                                </a>
+                                <div class="product-name">Black Faux Leather Skirt</div>
+                                <div class="product-price">$12</div>
+                            </div>
+                        </a>
+                    </div>  
+                </div>
+            </div>
+
+            <div id="filled-cart-items">
+                <div class="cart-item">
+                    <img src="../Assets/Website_Coding/Products_Category Page/C_TOPS/Grey _Arizona Phoenix_ sweater.jpg" alt="Product">
+                    <div class="item-details">
+                    <p>Product Name</p>
+                    <div class="item-price">$10</div>
+                    <p>Size: S</p>
+                    <p>Color: Blue</p>
+                    <div class="quantity-controls">
+                        <button class="quantity-btn">-</button>
+                        <span>1</span>
+                        <button class="quantity-btn">+</button>
+                    </div>
+                </div>
+                    <button id="remove-item">
+                        <img src="../Assets/Website_Coding/Shopping Cart/remove bin.png" alt="remove">
+                    </button>
+                </div>
+            
+
+                <div id="order-details">
+                    <h2 class="order-title">Order Details</h2>
+                    <p class="order-content">Number of Items 0</p>
+                    <p class="order-content">Original Price $0</p>
+                    <p class="order-content">Sales Discount $0</p>
+                    <p class="order-content">Promo Code</p>
+                    <input type="text" id="discount-code" placeholder="Enter code">
+                    <button id="apply-discount">Apply</button>
+                    <p id="discount-message"></p>
+                    <p class="order-content">Voucher Discount $0</p>
+                    <p id="cart-total"><strong>TOTAL</strong> <strong>$0</strong></p>
+                    <button id="checkout-btn">Place Order</button>
+                </div>
+    </div>
+
+        <div class="footer-content">
+                <div class="logo-footer">
+                    <img src="../Assets/QuickCart logo (B).png" alt="QuickCart">
+                </div>
+                <div class="instructions-text">
+                    <a href="Welcome.html">Instructions</a>
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>
