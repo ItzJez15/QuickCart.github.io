@@ -116,7 +116,7 @@
     "product9": {
       "productId":"product9",
       "name": "Blue 'Displaced' Logo Design T-shirt",
-      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/_Displaced_ logo design T-shirt front (Electric blue).jpg",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Displaced-logo-design-T-shirt-front (Electric blue).jpg",
       "price": "$8",
       "sizes": ["S", "M", "L"],
       "category": "Tops",
@@ -130,7 +130,7 @@
     "product10": {
       "productId":"product10",
       "name": "Grey 'Displaced' Logo Design T-shirt",
-      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Displaced logo design T-shirt front (Grey).jpg",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Displaced-logo-design-T-shirt-front (Grey).jpg",
       "price": "$8",
       "sizes": ["S", "M", "L"],
       "category": "Tops",
@@ -144,7 +144,7 @@
     "product11": {
       "productId":"product11",
       "name": "White 'Displaced' Logo Design T-shirt",
-      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/_Displaced_ logo design T-shirt front (White).jpg",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Displaced-logo-design-T-shirt-front (White).jpg",
       "price": "$8",
       "sizes": ["S", "M", "L"],
       "category": "Tops",
