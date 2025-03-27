@@ -1,0 +1,130 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    font-family: 'Istok Web', sans-serif;
+    padding: 1rem;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    margin-left: 28px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 185px 0 0;
+}
+
+li {
+    list-style: none;
+    margin: 0 1.5rem;
+}
+
+li a {
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    padding-bottom: 0.3rem;
+}
+
+li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0.2rem;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+
+li a:hover::after {
+    width: 100%;
+}
+
+.cart-icon img {
+    display: flex;
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    position: relative;
+    margin: 0 -115px 0 0;
+}
+
+.cover-image-bottoms {
+    display: block;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.product-grid-bottoms {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-bottoms {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 130px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px;
+    position: absolute;
+    top: 77.8em;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+}
+
+.product-content-bottoms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-content-bottoms img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: -5px;
+}
+
+.product-details-bottoms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.product-name-bottoms {
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.product-price-bottoms {
+    font-size: 18px;
+    margin-bottom: 30px;
+}

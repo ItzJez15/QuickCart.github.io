@@ -1,0 +1,355 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    font-family: 'Istok Web', sans-serif;
+    padding: 1rem;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    margin-left: 28px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 185px 0 0;
+}
+
+li {
+    list-style: none;
+    margin: 0 1.5rem;
+}
+
+li a {
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    padding-bottom: 0.3rem;
+}
+
+li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0.2rem;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+
+li a:hover::after {
+    width: 100%;
+}
+
+.cart-icon img {
+    display: flex;
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    position: relative;
+    margin: 0 -115px 0 0 ;
+}
+
+#cart-title {
+    text-align: center;
+    margin-top: 75px;
+}
+
+#empty-cart-message {
+    text-align: center;
+}
+
+#empty-cart-message img {
+    margin-top: 35px;
+}
+   
+#empty-cart-message p {
+    font-size: 28px;
+    margin-top: 25px;
+}  
+
+#empty-cart-message .tip {
+    font-size: 18px; /* Adjust tip font size */
+    color: black; /* Adjust tip color */
+    margin-bottom: 35px;
+}
+
+#continue-shopping-btn {
+    width: 325px;
+    height: 70px;
+    background: #5567AF;
+    border-radius: 12px;
+    border: transparent;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+#suggestions {
+    display: flex; /* Use flexbox for the row */
+    justify-content: center; /* Center the columns horizontally */
+    align-items: center; /* center items vertically if needed */
+    flex-wrap: wrap; /* allow wrapping on smaller screens */
+}
+
+#suggestions img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin-top: 4%;
+}
+
+.column-images {
+    width: 13.75%; /* Adjust width to account for gaps */
+    padding: 1.5%;
+    box-sizing: border-box; /* Include padding in width calculation */
+    text-align: center; /* center the image */
+    margin-top: -32.5%;
+}
+
+.column-images img{
+    width: 100%; /* make the images responsive */
+    height: auto;
+}
+
+#filled-cart-items {
+    display: flex;
+    margin: 0 5% 0 21%;
+    display: none;
+}
+
+.cart-item {
+    display: flex;
+    width: 450px;
+    padding: 20px;
+    margin-top: 7%;
+}
+
+.cart-item img {
+    width: 214px;
+    height: 274px;
+    object-fit: cover;
+    margin-right: 5%;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10;
+}
+
+.product-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.item-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.size-color {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: left;
+    gap: 15px;
+}
+
+.quantity-btn {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ccc;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#order-details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: absolute; /* For checkout-btn positioning */
+    width: 25%;
+    display: none;
+    margin-top: 3.5em;
+}
+
+.order-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.order-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.order-value {
+    font-weight: bold;
+}
+
+.promo-code {
+    margin-bottom: 10px;
+}
+
+.promo-input {
+    display: flex;
+}
+
+#discount-code {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#apply-discount {
+    padding: 5px 10px;
+    background-color: #8DA0FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#discount-message {
+    font-size: 14px;
+    color: black;
+}
+
+#cart-total {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 28px
+}
+
+.remove-item {
+    width: 7em; /* Use only one width definition */
+    height: 3em;
+    background: transparent;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+    margin: 18em 0 0 19.5em;
+    position: absolute;
+}
+
+#placeorder-btn {
+    width: 6.8em;
+    height: 2em;
+    background: #5567AF;
+    border-radius: 8px;
+    border: transparent;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin: 2em 0 0 6.5em; /* Add some space above the button */
+    position: absolute;
+}
+
+#you-may-also-like {
+    display: flex; /* Use flexbox for the row */
+    justify-content: center; /* Center the columns horizontally */
+    align-items: center; /* center items vertically if needed */
+    flex-wrap: wrap; /* allow wrapping on smaller screens */
+    display: none;
+}
+
+#you-may-also-like img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin-top: 12%;
+}
+
+.column-images2 {
+    width: 13.75%; /* Adjust width to account for gaps */
+    padding: 1.5%;
+    box-sizing: border-box; /* Include padding in width calculation */
+    text-align: center; /* center the image */
+    margin-top: -33.25%;
+}
+
+.column-images2 img{
+    width: 100%; /* make the images responsive */
+    height: auto;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1366px) {
+    #placeorder-btn {
+        width: 6.8em;
+        height: 2em;
+        background: #5567AF;
+        border-radius: 6px;
+        border: transparent;
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+        margin: 1.5em 0 0 5.75em; /* Add some space above the button */
+        position: absolute;
+    }
+    
+    #you-may-also-like img {
+        width: 100%;
+        object-fit: cover;
+        display: block;
+        margin-top: 13.5%;
+    }
+}
+
+@media (min-width: 2560px) {
+    #placeorder-btn {
+        width: 8em;
+        height: 2.5em;
+        background: #5567AF;
+        border-radius: 6px;
+        border: transparent;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+        margin: 2em 0 0 8.8em; /* Add some space above the button */
+        position: absolute;
+    }
+
+    #you-may-also-like img {
+        width: 100%;
+        object-fit: cover;
+        display: block;
+        margin-top: 10%;
+    }
+}

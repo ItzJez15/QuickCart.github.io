@@ -1,0 +1,111 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.results-display-bg {
+    position: relative; /* Needed to contain the image and title */
+}
+
+.results-display-bg img {
+    display: block; /* Remove extra space below image */
+    width: 100%; /* Make image responsive */
+    object-fit: cover;
+}
+
+#results-display {
+    font-family: 'Istok Web', sans-serif;
+    color: #5567AF;
+    text-align: center;
+    position: absolute; /* Position it absolutely within the parent */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for element size */
+    /* Add any other styling you need */
+}
+
+.gif-container {
+    width: 45%; /* Adjust to your desired size */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 4em;
+}
+
+.result-gif {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 12em;
+}
+
+.score-title {
+    font-size: 55px;
+}
+
+.result-title {
+    font-size: 32px;
+}
+
+.result-paragraph {
+    margin-top: 2.5em;
+}
+
+.sharing-container-info img {
+    display: block; /* Remove extra space below image */
+    width: 100%; /* Make image responsive */
+    object-fit: cover;
+    margin-top: 5em;
+}
+
+.sharing-container-info {
+    position: relative;
+}
+
+.mindful-shopper {
+    width: 25%; /* Adjust to your desired size */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 87%; /* Adjust as needed */
+    left: 63%; /* Adjust as needed */
+    transform: translate(-50%, -50%); /* Center the element */
+}
+
+.closing-video img {
+    display: block; /* Remove extra space below image */
+    width: 100%; /* Make image responsive */
+    object-fit: cover;
+}
+
+.closing-video {
+    position: relative;
+}
+
+.youtube-vid {
+    display: block;
+    left: 21.6%;
+    top: 18.5%;
+    position: absolute;
+}
+
+#proceed-btn {
+    position: absolute; /* Position relative to .image-container */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 10em;
+    height: 2.5em;
+    background: #5567AF;
+    border-radius: 8px;
+    border: transparent;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-top: -7.5em;
+}
+
+.credit-TED{
+    text-align: center;
+    position: absolute;
+    left: 47.5%; /* Center horizontally */
+    margin-top: 11em;
+    font-family: 'Istok Web', sans-serif;
+}

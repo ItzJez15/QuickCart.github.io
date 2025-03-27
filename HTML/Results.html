@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Results</title>
+    <link rel="stylesheet" href="../CSS/results.css">
+    <script src="../JAVASCRIPT/ScoreResults.js"></script>
+</head>
+<body>
+
+    <div class="results-display-bg">
+        <img src="../Assets/Website_Coding/Score Results/score-results-bg.jpg" alt="Results Display Background">
+        <div id="results-display"></div>
+    </div>
+
+    <div class="sharing-container">
+        <div class="sharing-container-info">
+            <img src="../Assets/Website_Coding/Score Results/score-results-info-pg.png" alt="Stage 3 Share">
+
+            <div class="mindful-shopper">
+                <img src="../Assets/Website_Coding/Score Results/mindful-shopper.gif" alt="Mindful Shopper">
+            </div>
+        </div>
+    </div>
+
+    <div class="closing-video">
+        <a href="https://www.ted.com/"><p class="credit-TED">Video by TED.com</p></a>
+        <img src="../Assets/Website_Coding/Score Results/video-closing.jpg" alt="Closing Video">
+
+        <div class="youtube-vid">
+            <iframe width="1072" height="603" src="https://www.youtube.com/embed/Bh8dnw67rE0?si=8eSYpvH-iHl8PmLF&amp;start=342" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <button id="proceed-btn">PROCEED</button>
+    
+    <script>
+        // Get the score from the URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const score = parseInt(urlParams.get('score'));
+    
+        // Display the results based on the score
+        const resultsDisplay = document.getElementById('results-display');
+        let resultTitle = '';
+        let resultParagraph = '';
+        let gifHtml = ''; // Variable to store the GIF HTML
+    
+        if (score >= 1 && score <= 3) {
+            gifHtml = `
+                <div class="gif-container">
+                    <img src="../Assets/Website_Coding/Score Results/watchful-eye.gif" alt="Watchful Eye" class="result-gif">
+                </div>
+            `;
+            resultTitle = 'You have a <br>WATCHFUL EYE';
+            resultParagraph = '‘WATCHFUL EYE’ individuals surpasses some level of enticement but are observant towards the distractions surrounding them. The marketing strategies presented on the website stand no chance against you and your controlled resistance! You are on the right track to becoming a ‘MINDFUL SHOPPER’, continue this good practice, and remember to always stay aware..';
+        } else if (score >= 4 && score <= 7) {
+            gifHtml = `
+                <div class="gif-container">
+                    <img src="../Assets/Website_Coding/Score Results/influenced-mind.gif" alt="Influenced Mind" class="result-gif">
+                </div>
+            `;
+            resultTitle = 'You have an <br>INFLUENCED MIND';
+            resultParagraph = '‘INFLUENCED MIND’ individuals display clear attraction towards the marketing strategies presented on the website. Although the initial intention wasn’t to purchase or browse anything, the interactions could’ve been alluring enough to sway and influence their purchasing decisions, giving in to pressure or temptation. However, it’s never too late to embark on your journey to becoming a ‘MINDFUL SHOPPER’ as this experience marks a valuable starting point!';
+        } else {
+            gifHtml = '<p>No GIF to display.</p>';
+            resultTitle = 'No Result';
+            resultParagraph = 'No appropriate results were found for your score.';
+        }
+    
+        // Display the score, title, gif, and paragraph in the desired order
+        resultsDisplay.innerHTML = `
+            <h1 class="score-title">You Scored: ${score}/7</h1>
+            <p class="result-title"><strong>${resultTitle}</strong></p>
+            ${gifHtml}
+            <p class="result-paragraph">${resultParagraph}</p>
+        `;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const proceedButton = document.getElementById('proceed-btn');
+
+            proceedButton.addEventListener('click', function() {
+                window.location.href = 'https://forms.gle/JcpKY6vzhuHZr67CA';
+            });
+        });
+    </script>
+    
+</body>
+</html>

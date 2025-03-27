@@ -1,0 +1,998 @@
+{
+    "product1": {
+      "productId": "product1",
+      "name": "Basic Plain Sleeveless Top Black",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Basic plain sleeveless top front (black).jpg",
+      "price": "$5",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product2": {
+      "productId":"product2",
+      "name": "Basic Plain Sleeveless Top White",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Basic plain sleeveless top front (white).jpg",
+      "price": "$5",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product3": {
+      "productId":"product3",
+      "name": "Black Striped Cherry Blouse",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Black striped cherry blouse.jpg",
+      "price": "$4",
+      "saleprice": "$4",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": true,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+    
+    "product4": {
+      "productId":"product4",
+      "name": "Red Tropical Blouse",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Red tropical blouse.jpg",
+      "price": "$4",
+      "saleprice": "$4",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": true,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product5": {
+      "productId":"product5",
+      "name": "White Mini Graphic Icon T-shirt",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Mini graphic icon T-shirt front.jpg",
+      "price": "$12",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": true,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product6": {
+      "productId":"product6",
+      "name": "Black Mini Graphic Icon T-shirt",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Mini graphic icon T-shirt back.jpg",
+      "price": "$12",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+    
+    "product7": {
+      "productId":"product7",
+      "name": "Purple Green Graphic T-shirt",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Purple green graphic T-shirt.jpg",
+      "price": "$12",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": true,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product8": {
+      "productId":"product8",
+      "name": "White semi-translucent top",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/White semi translucent top.jpg",
+      "price": "$14",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": true,
+      "suggestionsForYou": false
+    },
+
+    "product9": {
+      "productId":"product9",
+      "name": "Blue 'Displaced' Logo Design T-shirt",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/_Displaced_ logo design T-shirt front (Electric blue).jpg",
+      "price": "$8",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product10": {
+      "productId":"product10",
+      "name": "Grey 'Displaced' Logo Design T-shirt",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/_Displaced_ logo design T-shirt front (Grey).jpg",
+      "price": "$8",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": true,
+      "suggestionsForYou": false
+    },
+
+    "product11": {
+      "productId":"product11",
+      "name": "White 'Displaced' Logo Design T-shirt",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/_Displaced_ logo design T-shirt front (White).jpg",
+      "price": "$8",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product12": {
+      "productId":"product12",
+      "name": "Light Blue Colour-block Sleeves Hoodie",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Light blue colour-block sleeves hoodie.jpg",
+      "price": "$15",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": true,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product13": {
+      "productId":"product13",
+      "name": "Pink Graphic Texts Hoodie",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Pink graphic texts hoodie front.jpg",
+      "price": "$15",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product14": {
+      "productId":"product14",
+      "name": "Basic Grey Hoodie",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Basic Grey hoodie.jpg",
+      "price": "$12",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": true
+    },
+
+    "product15": {
+      "productId":"product15",
+      "name": "White Vest Top",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/White vest top.jpg",
+      "price": "$8",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product16": {
+      "productId":"product16",
+      "name": "Grey 'Arizona Phoenix' Sweater",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Grey _Arizona Phoenix_ sweater.jpg",
+      "price": "$15",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": true,
+      "suggestionsForYou": false
+    },
+
+    "product17": {
+      "productId":"product17",
+      "name": "Light Blue Cropped Hoodie",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Light blue cropped hoodie.jpg",
+      "price": "$9",
+      "saleprice": "$9",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": true,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product18": {
+      "productId":"product18",
+      "name": "Beige Knit-Ribbed Collar Top",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Beige knit-ribbed collar top.jpg",
+      "price": "$6",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": true,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product19": {
+      "productId":"product19",
+      "name": "Black Semi Translucent Frill Sleeve Top",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Black semi translucent frill sleeve top.jpg",
+      "price": "$8",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product20": {
+      "productId":"product20",
+      "name": "Black Faux Leather Vest Top",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Black faux leather vest top.jpg",
+      "price": "$8",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product21": {
+      "productId":"product21",
+      "name": "Beige Knit Top",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Beige knit top.jpg",
+      "price": "$8",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product22": {
+      "productId":"product22",
+      "name": "Light Blue Striped Blouse",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Light blue striped blouse.jpg",
+      "price": "$10",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": true
+    },
+
+    "product23": {
+      "productId":"product23",
+      "name": "Beige Graphic Texts T-shirt",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_TOPS/Beige Graphic Texts T-shirt.jpg",
+      "price": "$6",
+      "saleprice": "$6",
+      "sizes": ["S", "M", "L"],
+      "category": "Tops",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": true,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product24": {
+      "productId":"product24",
+      "name": "Blue Button and Pockets Tie Belt Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Blue Button and pockets tie belt dress.jpg",
+      "price": "$12",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product25": {
+      "productId":"product25",
+      "name": "Beige Button and Pockets Tie Belt Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Button and pockets tie belt dress (beige).jpg",
+      "price": "$12",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product26": {
+      "productId":"product26",
+      "name": "Green Dress with Pockets",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Green dress with pockets front.jpg",
+      "price": "$6",
+      "saleprice": "$6",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": true,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product27": {
+      "productId":"product27",
+      "name": "Black Tie-strap Lace Details Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Tie-strap lace details dress (black).jpg",
+      "price": "$15",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product28": {
+      "productId":"product28",
+      "name": "White Tie-strap Lace Details Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Tie-strap lace details dress (white) 1.jpg",
+      "price": "$15",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product29": {
+      "productId":"product29",
+      "name": "Beige Long-sleeve Knit Co-ord Set",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Beige long-sleeve knit co-ord set.jpg",
+      "price": "$13",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product30": {
+      "productId":"product30",
+      "name": "Beige Knit Sleeveless Co-ord Set",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Knit sleeveless co-ord set.jpg",
+      "price": "$14",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product31": {
+      "productId":"product31",
+      "name": "White Knit Sleeveless Co-ord Set",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Knit sleeveless co-ord set close-up details.jpg",
+      "price": "$14",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product32": {
+      "productId":"product32",
+      "name": "Grey Plaid Co-ord Set",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Grey plaid co-ord set.jpg",
+      "price": "$16",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": true,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product33": {
+      "productId":"product33",
+      "name": "Musturd Button Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Musturd button dress.jpg",
+      "price": "$11",
+      "saleprice": "$11",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": true,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product34": {
+      "productId":"product34",
+      "name": "White Floral Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/White floral dress front.jpg",
+      "price": "$15",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product35": {
+      "productId":"product35",
+      "name": "White Button Floral details dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/White button floral details dress.jpg",
+      "price": "$13",
+      "saleprice": "$13",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": true,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product36": {
+      "productId":"product36",
+      "name": "Black Basic Plain Mini Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Basic plain mini dress (black).jpg",
+      "price": "$12",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product37": {
+      "productId":"product37",
+      "name": "White Basic Plain Mini Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Basic plain mini dress (white) 1.jpg",
+      "price": "$12",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product38": {
+      "productId":"product38",
+      "name": "White Tube Layer Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/White tube layer dress.jpg",
+      "price": "$16",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": true,
+      "suggestionsForYou": false
+    },
+
+    "product39": {
+      "productId":"product39",
+      "name": "Black Jumpsuit",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Black jumpsuit.jpg",
+      "price": "$16",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": true,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product40": {
+      "productId":"product40",
+      "name": "Light Blue Flare Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Light blue flare dress.jpg",
+      "price": "$11",
+      "saleprice":"$11",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": true,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product41": {
+      "productId":"product41",
+      "name": "Light Brown Romper",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Light brown romper.jpg",
+      "price": "$10",
+      "saleprice":"$10",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": true,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product42": {
+      "productId":"product42",
+      "name": "Black Cap-sleeve Button Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Black cap-sleeve button dress.jpg",
+      "price": "$12",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": true,
+      "suggestionsForYou": false
+    },
+
+    "product43": {
+      "productId":"product43",
+      "name": "Denim Button Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Denim button dress.jpg",
+      "price": "$15",
+      "saleprice": "$15",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": true,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product44": {
+      "productId":"product44",
+      "name": "Black Midi Silt Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Black midi silt dress.jpg",
+      "price": "$12",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": true
+    },
+
+    "product45": {
+      "productId":"product45",
+      "name": "Light Blue Puff-sleeve Dress",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_ONE-PIECE/Light Blue Puff-sleeve Dress.jpg",
+      "price": "$9",
+      "saleprice": "$9",
+      "sizes": ["S", "M", "L"],
+      "category": "One-Piece",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": true,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product46": {
+      "productId":"product46",
+      "name": "Black Faux Leather Skirt",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Black faux leather skirt front.jpg",
+      "price": "$12",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": true
+    },
+
+    "product47": {
+      "productId":"product47",
+      "name": "Denim Flare Cargo Jeans",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Denim flare cargo jeans 2.jpg",
+      "price": "$18",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product48": {
+      "productId":"product48",
+      "name": "Beige Parachute Pants",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Beige parachute pants.jpg",
+      "price": "$15",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": true,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product49": {
+      "productId":"product49",
+      "name": "Blue Parachute Pants",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Blue parachute pants.jpg",
+      "price": "$15",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product50": {
+      "productId":"product50",
+      "name": "Brown Overlap Skort",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Brown overlap skort.jpg",
+      "price": "$6",
+      "saleprice": "$6",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": true,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product51": {
+      "productId":"product51",
+      "name": "Heart-printed Denim Jeans",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Heart-printed denim jeans.jpg",
+      "price": "$25",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product52": {
+      "productId":"product52",
+      "name": "Grey Ribbon Skirt",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Grey ribbon skirt 1.jpg",
+      "price": "$6",
+      "saleprice": "$6",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": true,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product53": {
+      "productId":"product53",
+      "name": "Grey Denim Skirt",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Grey denim skirt.jpg",
+      "price": "$13",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": true,
+      "suggestionsForYou": false
+    },
+
+    "product54": {
+      "productId":"product54",
+      "name": "Denim Flare Jeans",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Denim flare jeans.jpg",
+      "price": "$22",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": true,
+      "suggestionsForYou": false
+    },
+
+    "product55": {
+      "productId":"product55",
+      "name": "Beige Knit-ribbed Skirt",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Beige knit-ribbed skirt.jpg",
+      "price": "$6",
+      "saleprice": "$6",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": true,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product56": {
+      "productId":"product56",
+      "name": "Basic Denim Dark-washed Jeans",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Basic denim dark-washed jeans.jpg",
+      "price": "$20",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product57": {
+      "productId":"product57",
+      "name": "Denim White-stitched Jeans",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Denim white-stitched jeans.jpg",
+      "price": "$22",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product58": {
+      "productId":"product58",
+      "name": "Low-waist Belted Denim Jeans",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Low-waist belted denim jeans.jpg",
+      "price": "$25",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product59": {
+      "productId":"product59",
+      "name": "Basic Denim Shorts",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Basic denim shorts.jpg",
+      "price": "$5",
+      "saleprice": "$5",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": true,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product60": {
+      "productId":"product60",
+      "name": "Acid-wash Denim Jorts",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Basic denim jorts.jpg",
+      "price": "$13",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": true,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product61": {
+      "productId":"product61",
+      "name": "Brown Midi Satin Skirt",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_BOTTOMS/Brown Midi Satin Skirt.jpg",
+      "price": "$7",
+      "saleprice": "$7",
+      "sizes": ["S", "M", "L"],
+      "category": "Bottoms",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": true,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product62": {
+      "productId":"product62",
+      "name": "Beige Cropped Jacket",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_OUTERWEAR/Beige cropped jacket.jpg",
+      "price": "$13",
+      "sizes": ["S", "M", "L"],
+      "category": "Outerwear",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": true
+    },
+
+    "product63": {
+      "productId":"product63",
+      "name": "Black Letter Graphic Jacket",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_OUTERWEAR/Black letter graphic jacket.jpg",
+      "price": "$15",
+      "sizes": ["S", "M", "L"],
+      "category": "Outerwear",
+      "springSale": false,
+      "newArrival": true,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product64": {
+      "productId":"product64",
+      "name": "Stripped Black Blazer",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_OUTERWEAR/Stripped black blazer 2.jpg",
+      "price": "$25",
+      "sizes": ["S", "M", "L"],
+      "category": "Outerwear",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product65": {
+      "productId":"product65",
+      "name": "Cropped Black Faux Leather Jacket",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_OUTERWEAR/Cropped black faux leather jacket.jpg",
+      "price": "$15",
+      "sizes": ["S", "M", "L"],
+      "category": "Outerwear",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product66": {
+      "productId":"product66",
+      "name": "Light Blue Knit Over-sized Vest",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_OUTERWEAR/Light blue knit oversized vest.jpg",
+      "price": "$10",
+      "sizes": ["S", "M", "L"],
+      "category": "Outerwear",
+      "springSale": false,
+      "newArrival": true,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product67": {
+      "productId":"product67",
+      "name": "Light Grey Plaid Blazer",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_OUTERWEAR/Light grey plaid blazer.jpg",
+      "price": "$25",
+      "sizes": ["S", "M", "L"],
+      "category": "Outerwear",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product68": {
+      "productId":"product68",
+      "name": "Denim Over-sized Vest",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_OUTERWEAR/Denim oversized vest.jpg",
+      "price": "$20",
+      "sizes": ["S", "M", "L"],
+      "category": "Outerwear",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product69": {
+      "productId":"product69",
+      "name": "Brown Faux Leather Jacket",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_OUTERWEAR/Brown faux leather jacket.jpg",
+      "price": "$18",
+      "sizes": ["S", "M", "L"],
+      "category": "Outerwear",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    },
+
+    "product70": {
+      "productId":"product70",
+      "name": "Denim Pearl Details Jacket",
+      "image": "../Assets/Website_Coding/Products_Details Page/D_OUTERWEAR/Denim Pearl Details Jacket.jpg",
+      "price": "$22",
+      "sizes": ["S", "M", "L"],
+      "category": "Outerwear",
+      "springSale": false,
+      "newArrival": false,
+      "flashSale": false,
+      "selectedForYou": false,
+      "suggestionsForYou": false
+    }
+    
+  }

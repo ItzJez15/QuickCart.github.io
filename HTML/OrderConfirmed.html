@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Order Confirmed</title>
+    <link rel="stylesheet" href="../CSS/homestyle.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo">
+                <img src="../Assets/Website_Coding/Core Elements/QuickCart logo (B).png" alt="QuickCart">
+            </div>
+
+            <ul>
+                <li>Tops</li>
+                <li>Bottoms</li>
+                <li>One-Piece</li>
+                <li>Outerwear</li>
+            </ul>
+
+            <div class="cart-icon">
+                <img src="../Assets/Website_Coding/Shopping Cart/shopping-cart.png" alt="Shopping Cart">
+            </div>
+            
+        </div>
+    </nav>
+
+    <div class="order-confirmed-pg">
+        <div class="image-container">
+            <img src="../Assets/Website_Coding/Order Confirmed/Order-confirm-image.jpg" alt="Order Confirmed">
+            <button id="returntohome-btn">Return to Home</button>
+        </div>
+    </div>
+    
+    <style>
+        .order-confirmed-pg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+    
+        .image-container {
+            position: relative; /* Make this the positioning context */
+            display: inline-block; /* Needed for width/height to work */
+        }
+    
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Remove extra space below image */
+            margin-bottom: 6em;
+        }
+    
+        #returntohome-btn {
+            position: absolute; /* Position relative to .image-container */
+            bottom: 2em; /* Adjust as needed */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Center horizontally */
+            width: 10em;
+            height: 2.5em;
+            background: #5567AF;
+            border-radius: 8px;
+            border: transparent;
+            font-size: 1.5em;
+            color: white;
+            cursor: pointer;
+            text-align: center;
+            margin-bottom: 6em;
+        }
+    
+        /* Media queries for different screen sizes */
+        @media (max-width: 1366px) {
+            .image-container img {
+                max-width: 75%;
+                margin-left: 9em;
+                margin-top: 1em;
+            }
+    
+            #returntohome-btn {
+                width: 12em;
+                font-size: 1.2em;
+                margin-bottom: 7.5em;
+            }
+        }
+    
+        @media (min-width: 2560px) {
+            .image-container img {
+                width: 1500px;
+                height: 998px;
+                margin-bottom: 10em;
+            }
+    
+            #returntohome-btn {
+                width: 10em;
+                font-size: 2em;
+                margin-bottom: 8em;
+            }
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const returntohomeButton = document.getElementById('returntohome-btn');
+
+            returntohomeButton.addEventListener('click', function() {
+                window.location.href = 'HomeNegative.html';
+            });
+        });
+    </script>
+    
+</body>
+</html>
