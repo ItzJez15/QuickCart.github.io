@@ -28,6 +28,7 @@
     width: 45%; /* Adjust to your desired size */
     height: auto; /* Maintain aspect ratio */
     margin-left: 4em;
+   
 }
 
 .result-gif {
@@ -46,7 +47,8 @@
 }
 
 .result-paragraph {
-    margin-top: 2.5em;
+    margin-top: -1em;
+    font-size: 22px;
 }
 
 .sharing-container-info img {
@@ -108,4 +110,96 @@
     left: 47.5%; /* Center horizontally */
     margin-top: 11em;
     font-family: 'Istok Web', sans-serif;
+}
+
+@media screen and (max-width: 1366px) {
+    .gif-container {
+        width: 40%; /* Adjust to your desired size */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 1em;
+        margin-top: -2em;
+    }
+    
+    .score-title {
+        font-size: 45px;
+    }
+    
+    .result-title {
+        font-size: 32px;
+    }
+    
+    .result-paragraph {
+        margin-top: -1em;
+        font-size: 18px;
+    }
+
+    .youtube-vid iframe {
+        display: block;
+        left: 21.6%;
+        top: 18.5%;
+        position: absolute;
+        width: 50%;
+        width: 750px;
+        height: 422px;
+    }
+
+    .credit-TED{
+        text-align: center;
+        position: absolute;
+        left: 45.5%; /* Center horizontally */
+        margin-top: 7.5em;
+    }
+
+    #proceed-btn {
+        position: absolute; /* Position relative to .image-container */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+        width: 8em;
+        height: 2em;
+        background: #5567AF;
+        border-radius: 8px;
+        border: transparent;
+        font-size: 1.25em;
+        color: white;
+        cursor: pointer;
+        text-align: center;
+        margin-top: -6.5em;
+    }
+}
+
+@media (min-width: 2560px) {
+    .score-title {
+        font-size: 64px;
+    }
+    
+    .result-title {
+        font-size: 45px;
+    }
+    
+    .result-paragraph {
+        margin-top: -1em;
+        font-size: 28px;
+    }
+
+    .gif-container {
+        width: 40%; /* Adjust to your desired size */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 12em;
+        margin-top: -2em;
+    }
+
+    .youtube-vid iframe {
+        display: block;
+        left: 21.6%;
+        top: 18.5%;
+        position: absolute;
+        width: 50%;
+        width: 1450px;
+        height: 816px;
+    }
+
+    #proceed-btn {
+        margin-top: -7.5em;
+        font-size: 2em;
+    }
 }
