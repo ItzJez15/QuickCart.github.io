@@ -47,8 +47,7 @@
 }
 
 .result-paragraph {
-    margin-top: -1em;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .sharing-container-info img {
@@ -177,7 +176,6 @@
     }
     
     .result-paragraph {
-        margin-top: -1em;
         font-size: 28px;
     }
 
